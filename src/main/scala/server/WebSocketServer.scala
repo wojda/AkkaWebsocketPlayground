@@ -31,7 +31,7 @@ object WebSocketServer extends App {
 
   val bindingFuture = Http().bindAndHandle(route, "localhost", 8137)
 
-  println(s"Server online at http://localhost:8080/\nPress RETURN to stop...")
+  println(s"Server online at http://localhost:8137/\nPress RETURN to stop...")
   StdIn.readLine()
 
   import system.dispatcher // for the future transformations
