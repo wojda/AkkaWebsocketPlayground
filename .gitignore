@@ -1,0 +1,17 @@
+### SBT template
+target/
+project/target/
+lib_managed/
+src_managed/
+project/boot/
+.history
+.cache
+
+### Scala template
+*.class
+*.log
+
+### Intellij Idea specific file
+.idea/
+*.iml
+/out/
